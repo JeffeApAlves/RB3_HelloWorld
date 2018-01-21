@@ -1,4 +1,9 @@
-# 1. Configuração do ambiente de desenvolvimento
+# Descrição
+
+
+Teste de cross compile utilizando o toolchain da raspberry
+
+## 1. Configuração do ambiente de desenvolvimento
 
 Editar o script .bashrc adicionando na variável de ambiente “PATH” os caminhos de cada toolchain.
 
@@ -9,7 +14,7 @@ export PATH=$PATH:$HOME/toolchains/x-tools/armv8-rpi3-linux-gnueabihf/bin
 ```
 Deixar ativo apenas um path por vez. Comentando com “#” os demais
 
-# 2.	Testando o ambiente
+## 2.	Testando o ambiente
 
 Os toolchains utilizados nesse ambiente de desenvolvimento, serão executados em uma arquitetura x64, mas criara binários para uma arquitetura target do tipo ARM (core utilizado na raspberry). Portanto teremos um processo de cross-compile.
 
